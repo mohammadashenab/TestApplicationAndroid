@@ -13,5 +13,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         ActivityMainBinding binding = DataBindingUtil.setContentView(this,R.layout.activity_main);
         binding.setViewModel(new MainView());
+
+
+        // Kheyly karaye toopi kardam nemidooni
     }
 }
