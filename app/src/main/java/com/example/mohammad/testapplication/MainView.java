@@ -19,7 +19,7 @@ public class MainView extends BaseObservable {
     public String getEditText() {
         return editText;
     }
-
+    //commite dovom
     public void setEditText(String editText) {
         this.editText = editText;
     }
